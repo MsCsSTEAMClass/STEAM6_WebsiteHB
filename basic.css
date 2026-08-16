@@ -1,0 +1,202 @@
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(220, 217, 120);
+    font-family: 'Raleway', sans-serif;
+    font-variant: small-caps;
+    /* font-size: 1.25em;   */
+  }
+  
+  body {
+    background-color: #33b9cb46;
+
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px white;
+  }
+  
+  h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px white;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    text-shadow: 2px 2px white;
+  }
+  
+  h4 {
+    font-size: 1em;
+    text-shadow: 1px 1px white;
+    line-height: 1.5em;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .btn {
+    padding-left: 40px;
+    font-variant: small-caps;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  strong {
+    font-weight: bolder;
+  }
+  
+  p {
+    padding-block: 5px;
+    width: 90%;
+    padding-left: 30px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  .definition {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  
+  section {
+    padding-block: 10px;
+    /* padding-bottom: 3px; */
+  }
+
+  .grid-container {
+  display: grid;
+  /* Creates 2 columns of equal size (1 fractional unit each) */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; /* Space between rows and columns */
+}
+
+.column {
+  padding: 15px;
+}
+  
+  
+  #present {
+    grid-column: 5;
+  }
+  
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: larger;
+  
+  }
+  a:hover {
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  ul {
+    list-style: square;
+    justify-content: space-around;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    padding: 5px;
+    margin-left: 25px;
+    line-height: 1.3em;
+  
+  }
+  
+  main {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    left: 0px;
+    right: 0px;
+    font-family: 'Raleway', sans-serif;
+    /* margin-left: 3px; */
+  }
+  
+  .rubric-image {
+    padding: 2em;
+  }
+
+  /* Center the list block using flexbox */
+  .list-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .checkmark-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .checkmark-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .checkmark-list li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  ol {
+  list-style: decimal;
+  display: inline-flexbox;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-bottom: 30px;
+
+  }
+  
+  ol li {
+    padding: 5px;
+    margin-left: 25px;
+    line-height: 1.3em;
+  }
+  
+  footer {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color:rgb(220, 217, 120);
+    color: black;
+    font-family: "Chelsea Market", system-ui;
+  }
+  
+  .footer-links {
+    flex: 1 0 50%;
+    text-align: right;
+    font-size: 1.25em;
+  }
+  
+  #copyright {
+    flex: 1 0 50%;
+    text-align: center;
+    font-size: 1.25em;
+  }
+  
