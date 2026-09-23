@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="nav.css">
+    
+
+    <title>Problem & Engineering Log</title>
+</head>
+
+<body>
+    <header>
+        <nav id="main-menu">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="challenge.html">The Challenge</a>
+                <a href="research.html">Research</a>
+                <a href="build.html">Design & Build</a>
+                <a href="code.html">Code Structure</a>
+                <a href="presentation.html">Presentation</a>
+                <a href="vocab.html">Vocabulary</a>
+                <a href="rubric.html">Rubric</a>
+            </ul>
+        </nav>
+        <input type="checkbox" id="hamburger-input" class="burger-shower">
+        <label id="hamburger-menu" for="hamburger-input">
+            <nav id="sidebar-menu">
+                <h2>Menu</h2>
+                <ul>
+                <a href="index.html">Home</a><br>
+                <a href="challenge.html">The Challenge</a><br>
+                <a href="research.html">Research</a><br>
+                <a href="build.html">Design & Build</a><br>
+                <a href="code.html">Code Structure</a><br>
+                <a href="presentation.html">Presentation</a><br>
+                <a href="vocab.html">Vocabulary</a><br>
+                <a href="rubric.html">Rubric</a><br>
+                </ul>
+            </nav>
+        </label>
+        <div class="overlay"></div>
+    </header>
+    
+    <main>
+        <h1 style="text-align:center">Code Structure<br>
+
+    </h1>
+        <br>
+        <br>
+        <h2 style="text-align:center"><strong>Make a Plan for Your Code</strong></h2>
+        <h3 style="text-align:center"><em>Sensors, Variables, and Thresholds, Oh My!</em></h3>
+        <br>
+        <p style="text-align:center">
+            <strong>Psuedocode:</strong><br>
+            Pseudocode is a written plan or sketch of what your code needs to do.<br>
+            Since we will have a sensor that will take in a value, we will need to also create a variable for that value<br>
+            <br>
+            See Ms. C.'s generic pseudocode below as an example:<br>
+        </p>
+        <img src="img/HB_Pseudocode.jpeg"/>
+            <br>
+        <h3 style="text-align:center"><strong>VARIABLES</strong></h3>
+        <div class="list-container">
+            <ul>
+            <li><strong>Start by creating variables for your sensor value and threshold.</strong></li>
+            <li>Ms. C. left this blank because it could be temperature, light, sound, etc.</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <h3 style="text-align:center"><strong>ON START</strong></h3>
+        <div class="list-container">
+            <ul>
+            <li><strong>Start by setting the Threshold for your sensor value.</strong></li>
+            <li>This will correspond to one of the variables you created.</li>
+            <li><strong>You also need the "Start Hummingbird" code block here.</strong></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <h3 style="text-align:center"><strong>ON BUTTON 'A' PRESS</strong></h3>
+        <div class="list-container">
+            <ul>
+            <li>When you take input from a sensor, it's a good idea to have a way to test and make sure it works!</li>
+            <li><strong>Use "SHOW NUMBER" and the sensor value to see what your sensor is reading!</strong></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <h3 style="text-align:center"><strong>FOREVER BLOCK</strong></h3>
+        <h4 style="text-align:center"><strong><em>This is where things get a little tricky...</em></strong></h4>
+        <div class="list-container">
+            <ul>
+            <li><strong>Start by setting your VARIABLE value TO the SENSOR INPUT VALUE</strong></li>
+            <li>Then, you'll use an <strong>IF/THEN block (from Logic)</strong></li>
+            <li>Use a <strong>COMPARISON BLOCK</strong> to compare the <strong>VARIABLE VALUE</strong> to the <strong>VARIABLE THRESHOLD</strong></li>
+            <li>Add that <strong>COMPARISON BLOCK</strong> to the <strong>IF/THEN block</strong></li>
+            <li><strong>IF</strong> the comparison does what you want, <strong>WHAT HAPPENS?</strong></li>
+            <li><strong>ELSE</strong>, what happens?</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <h3 style="text-align:center"><strong>FUNCTIONS</strong></h3>
+        <h4 style="text-align:center"><strong>You MAY want to create some functions to help!</strong></h4>
+        <p style="text-align:center">
+            Functions are blocks of code that can be reused in other places!<br>
+            <br>
+            For example, if you are using <strong>TEMPERATURE</strong>, you may want to convert it FROM Celsius TO Fahrenheit!
+        </p>
+        <br>
+        <h3 style="text-align:center"><strong>Check out the code example below to see all of this in action!</strong></h3>
+        <br>
+        <a href="https://makecode.microbit.org/_LwHD8UdjULD5" target="_blank" rel="noopener noreferrer">
+            <img src="img/MakeCode_SampleCode.png"/>
+        </a>
+        <br>
+        <h3 style="text-align:center">
+            This code uses both a temperature sensor AND a sound sensor.<br>
+            <br>
+            <br>
+            Can you figure out what it does?
+        </h3>
+        <br>
+        <br>
+        <br>
+        </main>
+    <footer>
+        <span id="copyright">&copy; 2026 Ms. C's STEAM Class</span>
+      </footer>
+    
+      <script src="./script.js"></script>
+
+</body>
+</html>
+
+<!-- I hope this has been a helpful website for you to use!-->
